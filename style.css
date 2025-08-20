@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+body {
+  font-family: "Courier Prime";
+  margin: 0px;
+  padding: 0px;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: dashed;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2em;
+}
+
+img.profile {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: solid;
+  display: block;
+  margin: auto;
+}
+
+progress {
+  width: 200px;
+  height: 25px;
+  border: solid;
+  color: black;
+  background: #f4f4f4;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #f4f4f4;
+}
+
+progress::-webkit-progress-value {
+  background-color: black;
+}
+
+progress::-moz-progress-bar {
+  background-color: black;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+}
+
+details {
+  display: flex;
+  flex-direction: column;
+  border: dashed;
+  padding: 20px;
+  margin: 10px;
+}
+
+details:hover {
+  border: solid;
+}
